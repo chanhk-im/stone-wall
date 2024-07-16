@@ -1,0 +1,2427 @@
+fileFormatVersion: 2
+guid: 174243b392fc9434da9c9dc58fe5f711
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 648695246850380631
+    second: monster-02-red 0
+  - first:
+      213: -7780660321075991433
+    second: monster-02-red 1
+  - first:
+      213: 8815159939326376347
+    second: monster-02-red 2
+  - first:
+      213: -3726942504121780025
+    second: monster-02-red 3
+  - first:
+      213: 7824964909222895500
+    second: monster-02-red 4
+  - first:
+      213: -5939955250473737684
+    second: monster-02-red 5
+  - first:
+      213: -8830641487509007897
+    second: monster-02-red 6
+  - first:
+      213: -6447000924876090497
+    second: monster-02-red 7
+  - first:
+      213: 5152696138414964258
+    second: monster-02-red 8
+  - first:
+      213: -4522921694682573583
+    second: monster-02-red 9
+  - first:
+      213: 1445440775121994702
+    second: monster-02-red 10
+  - first:
+      213: -3050595475658480337
+    second: monster-02-red 11
+  - first:
+      213: -4870783910313213653
+    second: monster-02-red 12
+  - first:
+      213: -7877694678163826797
+    second: monster-02-red 13
+  - first:
+      213: -2315588850392722670
+    second: monster-02-red 14
+  - first:
+      213: 3321934981716163950
+    second: monster-02-red 15
+  - first:
+      213: -5759550273923423784
+    second: monster-02-red 16
+  - first:
+      213: -3937278442800418131
+    second: monster-02-red 17
+  - first:
+      213: 860560760570755133
+    second: monster-02-red 18
+  - first:
+      213: 2551181363516427639
+    second: monster-02-red 19
+  - first:
+      213: 9158597395425354148
+    second: monster-02-red 20
+  - first:
+      213: 1625068832164488250
+    second: monster-02-red 21
+  - first:
+      213: -8835671888981507815
+    second: monster-02-red 22
+  - first:
+      213: 216966228880286860
+    second: monster-02-red 23
+  - first:
+      213: 1431021201514412051
+    second: monster-02-red 24
+  - first:
+      213: -5650991248613571649
+    second: monster-02-red 25
+  - first:
+      213: -2386725839266303911
+    second: monster-02-red 26
+  - first:
+      213: -7819981755543047783
+    second: monster-02-red 27
+  - first:
+      213: 780779017548043696
+    second: monster-02-red 28
+  - first:
+      213: 8865808790932729443
+    second: monster-02-red 29
+  - first:
+      213: -4060067625952871278
+    second: monster-02-red 30
+  - first:
+      213: 7459150299061262634
+    second: monster-02-red 31
+  - first:
+      213: -8805292164090351094
+    second: monster-02-red 32
+  - first:
+      213: -2228703030848595678
+    second: monster-02-red 33
+  - first:
+      213: -5601048252635563301
+    second: monster-02-red 34
+  - first:
+      213: 2944043293992387185
+    second: monster-02-red 35
+  - first:
+      213: 7192332307987083677
+    second: monster-02-red 36
+  - first:
+      213: 547811796847549633
+    second: monster-02-red 37
+  - first:
+      213: 8080135096491758131
+    second: monster-02-red 38
+  - first:
+      213: 3158118645439641695
+    second: monster-02-red 39
+  - first:
+      213: 1490525270731704505
+    second: monster-02-red 40
+  - first:
+      213: -5864637431900161461
+    second: monster-02-red 41
+  - first:
+      213: 5897809528890444304
+    second: monster-02-red 42
+  - first:
+      213: -2331229832592885421
+    second: monster-02-red 43
+  - first:
+      213: 5330999884895173477
+    second: monster-02-red 44
+  - first:
+      213: 8695881565212440587
+    second: monster-02-red 45
+  - first:
+      213: -6389255244578911472
+    second: monster-02-red 46
+  - first:
+      213: 955072870709789633
+    second: monster-02-red 47
+  - first:
+      213: -5703687407437545819
+    second: monster-02-red 48
+  - first:
+      213: 5005649008159809329
+    second: monster-02-red 49
+  - first:
+      213: 1212592784568235155
+    second: monster-02-red 50
+  - first:
+      213: 2692236454819379798
+    second: monster-02-red 51
+  - first:
+      213: -7927994370523351005
+    second: monster-02-red 52
+  - first:
+      213: -2428476670274637241
+    second: monster-02-red 53
+  - first:
+      213: -3496581333278432936
+    second: monster-02-red 54
+  - first:
+      213: 8426906670455187411
+    second: monster-02-red 55
+  - first:
+      213: -5560913980312703511
+    second: monster-02-red 56
+  - first:
+      213: 5872433702281587141
+    second: monster-02-red 57
+  - first:
+      213: -759840961492493820
+    second: monster-02-red 58
+  - first:
+      213: 5169754356270320418
+    second: monster-02-red 59
+  - first:
+      213: 7650461620630889415
+    second: monster-02-red 60
+  - first:
+      213: -3694987230670659069
+    second: monster-02-red 61
+  - first:
+      213: -4045693302780099353
+    second: monster-02-red 62
+  - first:
+      213: 9028583781844869640
+    second: monster-02-red 63
+  - first:
+      213: 5632237576980977633
+    second: monster-02-red 64
+  - first:
+      213: 839578370436767776
+    second: monster-02-red 65
+  - first:
+      213: 8039436987372528200
+    second: monster-02-red 66
+  - first:
+      213: -7090636651486907065
+    second: monster-02-red 67
+  - first:
+      213: -8668371138424671147
+    second: monster-02-red 68
+  - first:
+      213: -3402957628006573224
+    second: monster-02-red 69
+  - first:
+      213: 7506836220550636850
+    second: monster-02-red 70
+  - first:
+      213: 5277174053087646004
+    second: monster-02-red 71
+  - first:
+      213: -6192569548230567420
+    second: monster-02-red 72
+  - first:
+      213: 679611064610968177
+    second: monster-02-red 73
+  - first:
+      213: -7769129831458751764
+    second: monster-02-red 74
+  - first:
+      213: 5590754350774828538
+    second: monster-02-red 75
+  - first:
+      213: 5653404934713208286
+    second: monster-02-red 76
+  - first:
+      213: -2727522474561671375
+    second: monster-02-red 77
+  - first:
+      213: -8794713422939315228
+    second: monster-02-red 78
+  - first:
+      213: 8820583498600705172
+    second: monster-02-red 79
+  - first:
+      213: -9097960824269527960
+    second: monster-02-red 80
+  - first:
+      213: -875527150898058026
+    second: monster-02-red 81
+  - first:
+      213: -2794266954318430276
+    second: monster-02-red 82
+  - first:
+      213: -4022392032094767338
+    second: monster-02-red 83
+  - first:
+      213: -8212490051225389784
+    second: monster-02-red 84
+  - first:
+      213: 9104389787439373667
+    second: monster-02-red 85
+  - first:
+      213: 5346888649367213356
+    second: monster-02-red 86
+  - first:
+      213: -6587318068807420657
+    second: monster-02-red 87
+  - first:
+      213: 7071241453124608379
+    second: monster-02-red 88
+  - first:
+      213: 6931746537356615901
+    second: monster-02-red 89
+  - first:
+      213: 897854955710405040
+    second: monster-02-red 90
+  - first:
+      213: 9138498002850836685
+    second: monster-02-red 91
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 336
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 336
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 336
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monster-02-red 0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753500cd3e0a00900800000000000000
+      internalID: 648695246850380631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ce94469aa850490800000000000000
+      internalID: -7780660321075991433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b997dc5924db55a70800000000000000
+      internalID: 8815159939326376347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c83487e98d374cc0800000000000000
+      internalID: -3726942504121780025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f9022602cd79c60800000000000000
+      internalID: 7824964909222895500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22ebc1cb2a019da0800000000000000
+      internalID: -5939955250473737684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1d2369a52437580800000000000000
+      internalID: -8830641487509007897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73552601d6a786a0800000000000000
+      internalID: -6447000924876090497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 8
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e30c576dd028740800000000000000
+      internalID: 5152696138414964258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f49981aeaa5b31c0800000000000000
+      internalID: -4522921694682573583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 10
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec303090abc3f0410800000000000000
+      internalID: 1445440775121994702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 11
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2566ffd39b1aa5d0800000000000000
+      internalID: -3050595475658480337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 12
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21c71017df776cb0800000000000000
+      internalID: -4870783910313213653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 13
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3975f039d6ecca290800000000000000
+      internalID: -7877694678163826797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 14
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2139c7685306ddfd0800000000000000
+      internalID: -2315588850392722670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 15
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6db228f342e91e20800000000000000
+      internalID: 3321934981716163950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 16
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d16ac09a87f110b0800000000000000
+      internalID: -5759550273923423784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2f31bed1afb59c0800000000000000
+      internalID: -3937278442800418131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38b579c37351fb00800000000000000
+      internalID: 860560760570755133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 19
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d4ef1feed976320800000000000000
+      internalID: 2551181363516427639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1652b8ecfd91f70800000000000000
+      internalID: 9158597395425354148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 21
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 210
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3429bc2e776d8610800000000000000
+      internalID: 1625068832164488250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 22
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 210
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9114a59fa33616580800000000000000
+      internalID: -8835671888981507815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 23
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 210
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c846aa8b2a1d20300800000000000000
+      internalID: 216966228880286860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 24
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 210
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318b15e63320cd310800000000000000
+      internalID: 1431021201514412051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb30c8d4665a391b0800000000000000
+      internalID: -5650991248613571649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 26
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950394e9e75a0eed0800000000000000
+      internalID: -2386725839266303911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 27
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 210
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99132de7608d97390800000000000000
+      internalID: -7819981755543047783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 28
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 210
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b597053162e5da00800000000000000
+      internalID: 780779017548043696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 29
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 210
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ea41e4f1ea90b70800000000000000
+      internalID: 8865808790932729443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29cf30f510eb7a7c0800000000000000
+      internalID: -4060067625952871278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 31
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 168
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a299bcd3da9348760800000000000000
+      internalID: 7459150299061262634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 32
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 168
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a023ddfdd615dc580800000000000000
+      internalID: -8805292164090351094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 33
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229de60d66e0211e0800000000000000
+      internalID: -2228703030848595678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 34
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdab5d33a441542b0800000000000000
+      internalID: -5601048252635563301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 35
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 168
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17289c517c75bd820800000000000000
+      internalID: 2944043293992387185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 36
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 168
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91b224a02c40d360800000000000000
+      internalID: 7192332307987083677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 37
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 168
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ccddd24de73a9700800000000000000
+      internalID: 547811796847549633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 38
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 168
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332de835f08622070800000000000000
+      internalID: 8080135096491758131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 39
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 168
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58b7f3fc24e3db20800000000000000
+      internalID: 3158118645439641695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8c4ba26d86fa410800000000000000
+      internalID: 1490525270731704505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 41
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ab12fe35f9c9ea0800000000000000
+      internalID: -5864637431900161461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 42
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01acd62c48a39d150800000000000000
+      internalID: 5897809528890444304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 43
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359f18291dec5afd0800000000000000
+      internalID: -2331229832592885421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 44
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b33d486248bf940800000000000000
+      internalID: 5330999884895173477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 45
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08fa57f53afda870800000000000000
+      internalID: 8695881565212440587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 46
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b829fe43ec457a0800000000000000
+      internalID: -6389255244578911472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 47
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3054937b9114d00800000000000000
+      internalID: 955072870709789633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 48
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aef0d9b58e68d0b0800000000000000
+      internalID: -5703687407437545819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fd6a97043a77540800000000000000
+      internalID: 5005649008159809329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 50
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394346586bef3d010800000000000000
+      internalID: 1212592784568235155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 51
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 84
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65abdd4aacebc5520800000000000000
+      internalID: 2692236454819379798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 52
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 84
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328b8a3df1b1af190800000000000000
+      internalID: -7927994370523351005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 53
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 84
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742f4f2c5515c4ed0800000000000000
+      internalID: -2428476670274637241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 54
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 84
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8516da59dc5a97fc0800000000000000
+      internalID: -3496581333278432936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 55
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7e9d718f262f470800000000000000
+      internalID: 8426906670455187411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 56
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed25f8a23aa3d2b0800000000000000
+      internalID: -5560913980312703511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 57
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 84
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9a687b6531f7150800000000000000
+      internalID: 5872433702281587141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 58
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 84
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ad27cdba08475f0800000000000000
+      internalID: -759840961492493820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 59
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 84
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b458d4238aeb740800000000000000
+      internalID: 5169754356270320418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3a6716f46eb2a60800000000000000
+      internalID: 7650461620630889415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 61
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 42
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302654ac0b4c8bcc0800000000000000
+      internalID: -3694987230670659069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 62
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 42
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e48d99406fcad7c0800000000000000
+      internalID: -4045693302780099353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 63
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80267b53d19fb4d70800000000000000
+      internalID: 9028583781844869640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7de824c3ab92e40800000000000000
+      internalID: 5632237576980977633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 65
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 42
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0202cf26418c6ab00800000000000000
+      internalID: 839578370436767776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 66
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 42
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842e9726851d19f60800000000000000
+      internalID: 8039436987372528200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745f1c4888ff89d90800000000000000
+      internalID: -7090636651486907065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 68
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554f2f86062c3b780800000000000000
+      internalID: -8668371138424671147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 69
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 42
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b56f4211446c0d0800000000000000
+      internalID: -3402957628006573224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 70
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 42
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235e4f805c3ad2860800000000000000
+      internalID: 7506836220550636850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 71
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431923477d94c3940800000000000000
+      internalID: 5277174053087646004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 72
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ad0d63ec29f0aa0800000000000000
+      internalID: -6192569548230567420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 73
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 42
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172df8b99a67e6900800000000000000
+      internalID: 679611064610968177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceab206b4918e2490800000000000000
+      internalID: -7769129831458751764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 75
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd37600679569d40800000000000000
+      internalID: 5590754350774828538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 76
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd6509c5dde47e40800000000000000
+      internalID: 5653404934713208286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 77
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f6bdaa2c4e52ad0800000000000000
+      internalID: -2727522474561671375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 78
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3a75cfcb6e2f580800000000000000
+      internalID: -8794713422939315228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 79
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c64c165f1096a70800000000000000
+      internalID: 8820583498600705172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864aef855dc8db180800000000000000
+      internalID: -9097960824269527960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 81
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dce28be1b089d3f0800000000000000
+      internalID: -875527150898058026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfbc3c7205c839d0800000000000000
+      internalID: -2794266954318430276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 83
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61731a322c79d28c0800000000000000
+      internalID: -4022392032094767338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 84
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825f74f5fcf570e80800000000000000
+      internalID: -8212490051225389784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 85
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d9409464a495e70800000000000000
+      internalID: 9104389787439373667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 86
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25d917c5e6f33a40800000000000000
+      internalID: 5346888649367213356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 87
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05b8361e152594a0800000000000000
+      internalID: -6587318068807420657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 88
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b716286f2a8122260800000000000000
+      internalID: 7071241453124608379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 89
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd06f20ffb2823060800000000000000
+      internalID: 6931746537356615901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 90
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b951fe3352d57c00800000000000000
+      internalID: 897854955710405040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-02-red 91
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc07a88048772de70800000000000000
+      internalID: 9138498002850836685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      monster-02-red 0: 648695246850380631
+      monster-02-red 1: -7780660321075991433
+      monster-02-red 10: 1445440775121994702
+      monster-02-red 11: -3050595475658480337
+      monster-02-red 12: -4870783910313213653
+      monster-02-red 13: -7877694678163826797
+      monster-02-red 14: -2315588850392722670
+      monster-02-red 15: 3321934981716163950
+      monster-02-red 16: -5759550273923423784
+      monster-02-red 17: -3937278442800418131
+      monster-02-red 18: 860560760570755133
+      monster-02-red 19: 2551181363516427639
+      monster-02-red 2: 8815159939326376347
+      monster-02-red 20: 9158597395425354148
+      monster-02-red 21: 1625068832164488250
+      monster-02-red 22: -8835671888981507815
+      monster-02-red 23: 216966228880286860
+      monster-02-red 24: 1431021201514412051
+      monster-02-red 25: -5650991248613571649
+      monster-02-red 26: -2386725839266303911
+      monster-02-red 27: -7819981755543047783
+      monster-02-red 28: 780779017548043696
+      monster-02-red 29: 8865808790932729443
+      monster-02-red 3: -3726942504121780025
+      monster-02-red 30: -4060067625952871278
+      monster-02-red 31: 7459150299061262634
+      monster-02-red 32: -8805292164090351094
+      monster-02-red 33: -2228703030848595678
+      monster-02-red 34: -5601048252635563301
+      monster-02-red 35: 2944043293992387185
+      monster-02-red 36: 7192332307987083677
+      monster-02-red 37: 547811796847549633
+      monster-02-red 38: 8080135096491758131
+      monster-02-red 39: 3158118645439641695
+      monster-02-red 4: 7824964909222895500
+      monster-02-red 40: 1490525270731704505
+      monster-02-red 41: -5864637431900161461
+      monster-02-red 42: 5897809528890444304
+      monster-02-red 43: -2331229832592885421
+      monster-02-red 44: 5330999884895173477
+      monster-02-red 45: 8695881565212440587
+      monster-02-red 46: -6389255244578911472
+      monster-02-red 47: 955072870709789633
+      monster-02-red 48: -5703687407437545819
+      monster-02-red 49: 5005649008159809329
+      monster-02-red 5: -5939955250473737684
+      monster-02-red 50: 1212592784568235155
+      monster-02-red 51: 2692236454819379798
+      monster-02-red 52: -7927994370523351005
+      monster-02-red 53: -2428476670274637241
+      monster-02-red 54: -3496581333278432936
+      monster-02-red 55: 8426906670455187411
+      monster-02-red 56: -5560913980312703511
+      monster-02-red 57: 5872433702281587141
+      monster-02-red 58: -759840961492493820
+      monster-02-red 59: 5169754356270320418
+      monster-02-red 6: -8830641487509007897
+      monster-02-red 60: 7650461620630889415
+      monster-02-red 61: -3694987230670659069
+      monster-02-red 62: -4045693302780099353
+      monster-02-red 63: 9028583781844869640
+      monster-02-red 64: 5632237576980977633
+      monster-02-red 65: 839578370436767776
+      monster-02-red 66: 8039436987372528200
+      monster-02-red 67: -7090636651486907065
+      monster-02-red 68: -8668371138424671147
+      monster-02-red 69: -3402957628006573224
+      monster-02-red 7: -6447000924876090497
+      monster-02-red 70: 7506836220550636850
+      monster-02-red 71: 5277174053087646004
+      monster-02-red 72: -6192569548230567420
+      monster-02-red 73: 679611064610968177
+      monster-02-red 74: -7769129831458751764
+      monster-02-red 75: 5590754350774828538
+      monster-02-red 76: 5653404934713208286
+      monster-02-red 77: -2727522474561671375
+      monster-02-red 78: -8794713422939315228
+      monster-02-red 79: 8820583498600705172
+      monster-02-red 8: 5152696138414964258
+      monster-02-red 80: -9097960824269527960
+      monster-02-red 81: -875527150898058026
+      monster-02-red 82: -2794266954318430276
+      monster-02-red 83: -4022392032094767338
+      monster-02-red 84: -8212490051225389784
+      monster-02-red 85: 9104389787439373667
+      monster-02-red 86: 5346888649367213356
+      monster-02-red 87: -6587318068807420657
+      monster-02-red 88: 7071241453124608379
+      monster-02-red 89: 6931746537356615901
+      monster-02-red 9: -4522921694682573583
+      monster-02-red 90: 897854955710405040
+      monster-02-red 91: 9138498002850836685
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

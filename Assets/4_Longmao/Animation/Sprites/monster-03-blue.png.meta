@@ -1,0 +1,2427 @@
+fileFormatVersion: 2
+guid: b3a53ac373d4f4795b14e719ff718ffe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8280656003838797921
+    second: monster-03-blue 0
+  - first:
+      213: -6038199454881311608
+    second: monster-03-blue 1
+  - first:
+      213: 5018397999165756413
+    second: monster-03-blue 2
+  - first:
+      213: 7241518282453921213
+    second: monster-03-blue 3
+  - first:
+      213: -122895480311806296
+    second: monster-03-blue 4
+  - first:
+      213: 3698825053186860571
+    second: monster-03-blue 5
+  - first:
+      213: 2532143161986256537
+    second: monster-03-blue 6
+  - first:
+      213: -1410231013306815874
+    second: monster-03-blue 7
+  - first:
+      213: -1281439701268496833
+    second: monster-03-blue 8
+  - first:
+      213: -8068859340172515528
+    second: monster-03-blue 9
+  - first:
+      213: -352520510337280558
+    second: monster-03-blue 10
+  - first:
+      213: 7093984309572485813
+    second: monster-03-blue 11
+  - first:
+      213: 5905813031996998360
+    second: monster-03-blue 12
+  - first:
+      213: 2067919700816209858
+    second: monster-03-blue 13
+  - first:
+      213: -9168016512380320333
+    second: monster-03-blue 14
+  - first:
+      213: 4403326476704365842
+    second: monster-03-blue 15
+  - first:
+      213: 1161631456202895261
+    second: monster-03-blue 16
+  - first:
+      213: 2766270725091712612
+    second: monster-03-blue 17
+  - first:
+      213: 727018049826505034
+    second: monster-03-blue 18
+  - first:
+      213: 7808324336794325279
+    second: monster-03-blue 19
+  - first:
+      213: -4273756033246014830
+    second: monster-03-blue 20
+  - first:
+      213: 8442052698837325597
+    second: monster-03-blue 21
+  - first:
+      213: 497290260128532766
+    second: monster-03-blue 22
+  - first:
+      213: 1295487278784136356
+    second: monster-03-blue 23
+  - first:
+      213: 8598716741400714733
+    second: monster-03-blue 24
+  - first:
+      213: 8993202372546571657
+    second: monster-03-blue 25
+  - first:
+      213: -141026685307667090
+    second: monster-03-blue 26
+  - first:
+      213: 5228040176639060107
+    second: monster-03-blue 27
+  - first:
+      213: -4398128940712537580
+    second: monster-03-blue 28
+  - first:
+      213: 8907149790541878112
+    second: monster-03-blue 29
+  - first:
+      213: 3957014586349133890
+    second: monster-03-blue 30
+  - first:
+      213: 5964977755521411225
+    second: monster-03-blue 31
+  - first:
+      213: -3782288800898992971
+    second: monster-03-blue 32
+  - first:
+      213: 4117737644822576015
+    second: monster-03-blue 33
+  - first:
+      213: -146228426273968812
+    second: monster-03-blue 34
+  - first:
+      213: 4496525386728414124
+    second: monster-03-blue 35
+  - first:
+      213: 941650085070249218
+    second: monster-03-blue 36
+  - first:
+      213: 568228118704124631
+    second: monster-03-blue 37
+  - first:
+      213: 7207152284047155964
+    second: monster-03-blue 38
+  - first:
+      213: 7168592082563142236
+    second: monster-03-blue 39
+  - first:
+      213: 4084707445805245073
+    second: monster-03-blue 40
+  - first:
+      213: 667697502553732075
+    second: monster-03-blue 41
+  - first:
+      213: -4382037813597141058
+    second: monster-03-blue 42
+  - first:
+      213: 2320116357750863204
+    second: monster-03-blue 43
+  - first:
+      213: 8158415025908795046
+    second: monster-03-blue 44
+  - first:
+      213: -2697738392168771450
+    second: monster-03-blue 45
+  - first:
+      213: 2594426498137906183
+    second: monster-03-blue 46
+  - first:
+      213: -7913917482005975598
+    second: monster-03-blue 47
+  - first:
+      213: 1570446192061093692
+    second: monster-03-blue 48
+  - first:
+      213: -3614123818256612117
+    second: monster-03-blue 49
+  - first:
+      213: 5175982503930967511
+    second: monster-03-blue 50
+  - first:
+      213: 4596340918561204258
+    second: monster-03-blue 51
+  - first:
+      213: 8606930434121912331
+    second: monster-03-blue 52
+  - first:
+      213: -3551168397675590920
+    second: monster-03-blue 53
+  - first:
+      213: 932028082078100532
+    second: monster-03-blue 54
+  - first:
+      213: 3809473584441301334
+    second: monster-03-blue 55
+  - first:
+      213: -3652040365002193003
+    second: monster-03-blue 56
+  - first:
+      213: 7110311089260303718
+    second: monster-03-blue 57
+  - first:
+      213: 3561900083150092530
+    second: monster-03-blue 58
+  - first:
+      213: -4711864669181121402
+    second: monster-03-blue 59
+  - first:
+      213: -3274431914740073944
+    second: monster-03-blue 60
+  - first:
+      213: 3145450712067956225
+    second: monster-03-blue 61
+  - first:
+      213: -2593445472468605472
+    second: monster-03-blue 62
+  - first:
+      213: -7174977779412303652
+    second: monster-03-blue 63
+  - first:
+      213: -6871210596904500840
+    second: monster-03-blue 64
+  - first:
+      213: 5038831171284709596
+    second: monster-03-blue 65
+  - first:
+      213: -5330938332966724930
+    second: monster-03-blue 66
+  - first:
+      213: 7237917333074755017
+    second: monster-03-blue 67
+  - first:
+      213: 4793268803796562926
+    second: monster-03-blue 68
+  - first:
+      213: 748391555626834754
+    second: monster-03-blue 69
+  - first:
+      213: -2657498173972095303
+    second: monster-03-blue 70
+  - first:
+      213: 2052913956339414522
+    second: monster-03-blue 71
+  - first:
+      213: 3035887233960176128
+    second: monster-03-blue 72
+  - first:
+      213: 2901525969661900880
+    second: monster-03-blue 73
+  - first:
+      213: 2570925189614728673
+    second: monster-03-blue 74
+  - first:
+      213: 6993805708598973341
+    second: monster-03-blue 75
+  - first:
+      213: -6340985977703026261
+    second: monster-03-blue 76
+  - first:
+      213: 1607261729140217816
+    second: monster-03-blue 77
+  - first:
+      213: -2610620797218158024
+    second: monster-03-blue 78
+  - first:
+      213: -4360063012249232719
+    second: monster-03-blue 79
+  - first:
+      213: -5732200965950374555
+    second: monster-03-blue 80
+  - first:
+      213: 1474361268407452888
+    second: monster-03-blue 81
+  - first:
+      213: 3992782373751321379
+    second: monster-03-blue 82
+  - first:
+      213: 7966790819651048264
+    second: monster-03-blue 83
+  - first:
+      213: -5193561387485451974
+    second: monster-03-blue 84
+  - first:
+      213: -5208974035088069808
+    second: monster-03-blue 85
+  - first:
+      213: -5278355547404957370
+    second: monster-03-blue 86
+  - first:
+      213: -2181077656817118631
+    second: monster-03-blue 87
+  - first:
+      213: 4785604386927771819
+    second: monster-03-blue 88
+  - first:
+      213: 5761836190309009999
+    second: monster-03-blue 89
+  - first:
+      213: 2024677394926639599
+    second: monster-03-blue 90
+  - first:
+      213: 4476160396622117570
+    second: monster-03-blue 91
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 336
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 336
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 336
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: monster-03-blue 0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f979bffbc33351d80800000000000000
+      internalID: -8280656003838797921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88497d86691043ca0800000000000000
+      internalID: -6038199454881311608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df35ec1446ee4a540800000000000000
+      internalID: 5018397999165756413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbda92cb28a0f7460800000000000000
+      internalID: 7241518282453921213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 4
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6838736336b4ef0800000000000000
+      internalID: -122895480311806296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16a485e9cdd45330800000000000000
+      internalID: 3698825053186860571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e00aa3acaf32320800000000000000
+      internalID: 2532143161986256537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7aab987d5add6ce0800000000000000
+      internalID: -1410231013306815874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 8
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3efecc8169673ee0800000000000000
+      internalID: -1281439701268496833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837ac664e27a50090800000000000000
+      internalID: -8068859340172515528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 10
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d59e4da6789b1bf0800000000000000
+      internalID: -352520510337280558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 11
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2434ed425e27260800000000000000
+      internalID: 7093984309572485813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 12
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2cd0a89a9a5f150800000000000000
+      internalID: 5905813031996998360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 13
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7ae27f20ab2bc10800000000000000
+      internalID: 2067919700816209858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 14
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5c7a46e89a4c080800000000000000
+      internalID: -9168016512380320333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 15
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d390ac912cb1d30800000000000000
+      internalID: 4403326476704365842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 16
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fa4e2a7a1fe1010800000000000000
+      internalID: 1161631456202895261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e57a17194c36620800000000000000
+      internalID: 2766270725091712612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41c43d7013e61a00800000000000000
+      internalID: 727018049826505034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 19
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11d9a13d9dbc5c60800000000000000
+      internalID: 7808324336794325279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29250b5f78190b4c0800000000000000
+      internalID: -4273756033246014830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 21
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 210
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d179351a332382570800000000000000
+      internalID: 8442052698837325597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 22
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 210
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1909395bdab6e600800000000000000
+      internalID: 497290260128532766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 23
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 210
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a447f6f0de7af110800000000000000
+      internalID: 1295487278784136356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 24
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 210
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedd46f7157c45770800000000000000
+      internalID: 8598716741400714733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98da6d8e8e54ecc70800000000000000
+      internalID: 8993202372546571657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 26
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6db2661af8fa0ef0800000000000000
+      internalID: -141026685307667090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 27
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 210
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88aa0067dabd8840800000000000000
+      internalID: 5228040176639060107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 28
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 210
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412d67cd705b6f2c0800000000000000
+      internalID: -4398128940712537580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 29
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 210
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063917ada8d8c9b70800000000000000
+      internalID: 8907149790541878112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24021661dc32ae630800000000000000
+      internalID: 3957014586349133890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 31
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 168
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998e5f23aabd7c250800000000000000
+      internalID: 5964977755521411225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 32
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 168
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b43a70006c928bc0800000000000000
+      internalID: -3782288800898992971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 33
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b37ed3294252930800000000000000
+      internalID: 4117737644822576015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 34
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d20e3650e78fdf0800000000000000
+      internalID: -146228426273968812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 35
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 168
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab197ff30ed66e30800000000000000
+      internalID: 4496525386728414124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 36
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 168
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d145763c9611d00800000000000000
+      internalID: 941650085070249218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 37
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 168
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d27fbe9670c2e700800000000000000
+      internalID: 568228118704124631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 38
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 168
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2a6c431d2f40460800000000000000
+      internalID: 7207152284047155964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 39
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 168
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c529adca484fb7360800000000000000
+      internalID: 7168592082563142236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1926d9eb7cbcfa830800000000000000
+      internalID: 4084707445805245073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 41
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be371294753244900800000000000000
+      internalID: 667697502553732075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 42
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7863853dfdf23c0800000000000000
+      internalID: -4382037813597141058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 43
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465305de885b23020800000000000000
+      internalID: 2320116357750863204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 44
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6c08dad33883170800000000000000
+      internalID: 8158415025908795046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 45
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680d8ddb935bf8ad0800000000000000
+      internalID: -2697738392168771450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 46
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70cde597721410420800000000000000
+      internalID: 2594426498137906183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 47
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dda747dafd1c2290800000000000000
+      internalID: -7913917482005975598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 48
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c379aa8bd785bc510800000000000000
+      internalID: 1570446192061093692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be44986298d08ddc0800000000000000
+      internalID: -3614123818256612117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 50
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5317ee9a8c4d740800000000000000
+      internalID: 5175982503930967511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 51
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 84
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228ee6586bb79cf30800000000000000
+      internalID: 4596340918561204258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 52
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 84
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00d55cd0a5f17770800000000000000
+      internalID: 8606930434121912331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 53
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 84
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa04fe3827b7bec0800000000000000
+      internalID: -3551168397675590920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 54
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 84
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c24f04a9a3fec00800000000000000
+      internalID: 932028082078100532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 55
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6599bd5aa08fdd430800000000000000
+      internalID: 3809473584441301334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 56
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59708aa23a8515dc0800000000000000
+      internalID: -3652040365002193003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 57
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 84
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66591ed7346eca260800000000000000
+      internalID: 7110311089260303718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 58
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 84
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8789df0496e6130800000000000000
+      internalID: 3561900083150092530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 59
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 84
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ceeb34c081c9eb0800000000000000
+      internalID: -4711864669181121402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a37b0b581ee82d0800000000000000
+      internalID: -3274431914740073944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 61
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 42
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e5f4fd1c2e6ab20800000000000000
+      internalID: 3145450712067956225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 62
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 42
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5e92d551b320cd0800000000000000
+      internalID: -2593445472468605472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 63
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd00fca69bb5d6c90800000000000000
+      internalID: -7174977779412303652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8918b9a0e5e84a0a0800000000000000
+      internalID: -6871210596904500840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 65
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 42
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0379fd0468de540800000000000000
+      internalID: 5038831171284709596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 66
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 42
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba5108a4d3b406b0800000000000000
+      internalID: -5330938332966724930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd309f577f327460800000000000000
+      internalID: 7237917333074755017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 68
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3714bc49c158240800000000000000
+      internalID: 4793268803796562926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 69
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 42
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b1a0a9722d26a00800000000000000
+      internalID: 748391555626834754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 70
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 42
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bed425ad7bae1bd0800000000000000
+      internalID: -2657498173972095303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 71
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af57d02dd5a6d7c10800000000000000
+      internalID: 2052913956339414522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 72
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ae65eba53a12a20800000000000000
+      internalID: 3035887233960176128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 73
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 42
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058b4481f7a444820800000000000000
+      internalID: 2901525969661900880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5f61fa6d2cda320800000000000000
+      internalID: 2570925189614728673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 75
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d931429bc3dfe0160800000000000000
+      internalID: 6993805708598973341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 76
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1374969da4008a0800000000000000
+      internalID: -6340985977703026261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 77
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d79b7ae6042e4610800000000000000
+      internalID: 1607261729140217816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 78
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a8092773635cbd0800000000000000
+      internalID: -2610620797218158024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 79
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba909c7ac1fd73c0800000000000000
+      internalID: -4360063012249232719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d706b87912370b0800000000000000
+      internalID: -5732200965950374555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 81
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4450a13cbf57410800000000000000
+      internalID: 1474361268407452888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32373ec0a66396730800000000000000
+      internalID: 3992782373751321379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 83
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843d4256a0abf8e60800000000000000
+      internalID: 7966790819651048264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 84
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39aebb4f63cce7b0800000000000000
+      internalID: -5193561387485451974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 85
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 294
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ba752a6b106b7b0800000000000000
+      internalID: -5208974035088069808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 86
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64907b678938fb6b0800000000000000
+      internalID: -5278355547404957370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 87
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952dfdd4d614bb1e0800000000000000
+      internalID: -2181077656817118631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 88
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 252
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0816ea5d1e96240800000000000000
+      internalID: 4785604386927771819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 89
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4acb51dc7726ff40800000000000000
+      internalID: 5761836190309009999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 90
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe99d5d0d59191c10800000000000000
+      internalID: 2024677394926639599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monster-03-blue 91
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 126
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca355e3a248e1e30800000000000000
+      internalID: 4476160396622117570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      monster-03-blue 0: -8280656003838797921
+      monster-03-blue 1: -6038199454881311608
+      monster-03-blue 10: -352520510337280558
+      monster-03-blue 11: 7093984309572485813
+      monster-03-blue 12: 5905813031996998360
+      monster-03-blue 13: 2067919700816209858
+      monster-03-blue 14: -9168016512380320333
+      monster-03-blue 15: 4403326476704365842
+      monster-03-blue 16: 1161631456202895261
+      monster-03-blue 17: 2766270725091712612
+      monster-03-blue 18: 727018049826505034
+      monster-03-blue 19: 7808324336794325279
+      monster-03-blue 2: 5018397999165756413
+      monster-03-blue 20: -4273756033246014830
+      monster-03-blue 21: 8442052698837325597
+      monster-03-blue 22: 497290260128532766
+      monster-03-blue 23: 1295487278784136356
+      monster-03-blue 24: 8598716741400714733
+      monster-03-blue 25: 8993202372546571657
+      monster-03-blue 26: -141026685307667090
+      monster-03-blue 27: 5228040176639060107
+      monster-03-blue 28: -4398128940712537580
+      monster-03-blue 29: 8907149790541878112
+      monster-03-blue 3: 7241518282453921213
+      monster-03-blue 30: 3957014586349133890
+      monster-03-blue 31: 5964977755521411225
+      monster-03-blue 32: -3782288800898992971
+      monster-03-blue 33: 4117737644822576015
+      monster-03-blue 34: -146228426273968812
+      monster-03-blue 35: 4496525386728414124
+      monster-03-blue 36: 941650085070249218
+      monster-03-blue 37: 568228118704124631
+      monster-03-blue 38: 7207152284047155964
+      monster-03-blue 39: 7168592082563142236
+      monster-03-blue 4: -122895480311806296
+      monster-03-blue 40: 4084707445805245073
+      monster-03-blue 41: 667697502553732075
+      monster-03-blue 42: -4382037813597141058
+      monster-03-blue 43: 2320116357750863204
+      monster-03-blue 44: 8158415025908795046
+      monster-03-blue 45: -2697738392168771450
+      monster-03-blue 46: 2594426498137906183
+      monster-03-blue 47: -7913917482005975598
+      monster-03-blue 48: 1570446192061093692
+      monster-03-blue 49: -3614123818256612117
+      monster-03-blue 5: 3698825053186860571
+      monster-03-blue 50: 5175982503930967511
+      monster-03-blue 51: 4596340918561204258
+      monster-03-blue 52: 8606930434121912331
+      monster-03-blue 53: -3551168397675590920
+      monster-03-blue 54: 932028082078100532
+      monster-03-blue 55: 3809473584441301334
+      monster-03-blue 56: -3652040365002193003
+      monster-03-blue 57: 7110311089260303718
+      monster-03-blue 58: 3561900083150092530
+      monster-03-blue 59: -4711864669181121402
+      monster-03-blue 6: 2532143161986256537
+      monster-03-blue 60: -3274431914740073944
+      monster-03-blue 61: 3145450712067956225
+      monster-03-blue 62: -2593445472468605472
+      monster-03-blue 63: -7174977779412303652
+      monster-03-blue 64: -6871210596904500840
+      monster-03-blue 65: 5038831171284709596
+      monster-03-blue 66: -5330938332966724930
+      monster-03-blue 67: 7237917333074755017
+      monster-03-blue 68: 4793268803796562926
+      monster-03-blue 69: 748391555626834754
+      monster-03-blue 7: -1410231013306815874
+      monster-03-blue 70: -2657498173972095303
+      monster-03-blue 71: 2052913956339414522
+      monster-03-blue 72: 3035887233960176128
+      monster-03-blue 73: 2901525969661900880
+      monster-03-blue 74: 2570925189614728673
+      monster-03-blue 75: 6993805708598973341
+      monster-03-blue 76: -6340985977703026261
+      monster-03-blue 77: 1607261729140217816
+      monster-03-blue 78: -2610620797218158024
+      monster-03-blue 79: -4360063012249232719
+      monster-03-blue 8: -1281439701268496833
+      monster-03-blue 80: -5732200965950374555
+      monster-03-blue 81: 1474361268407452888
+      monster-03-blue 82: 3992782373751321379
+      monster-03-blue 83: 7966790819651048264
+      monster-03-blue 84: -5193561387485451974
+      monster-03-blue 85: -5208974035088069808
+      monster-03-blue 86: -5278355547404957370
+      monster-03-blue 87: -2181077656817118631
+      monster-03-blue 88: 4785604386927771819
+      monster-03-blue 89: 5761836190309009999
+      monster-03-blue 9: -8068859340172515528
+      monster-03-blue 90: 2024677394926639599
+      monster-03-blue 91: 4476160396622117570
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
