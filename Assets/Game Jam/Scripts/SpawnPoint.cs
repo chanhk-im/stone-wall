@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class SpawnPoint : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    float timer;
     void Update()
     {
-        
+        timer += Time.deltaTime;
+
+        if (timer > 0.2f) {
+            timer = 0;
+            Spawn(Random.Range(0, 2));
+        }
+    }
+
+    void Spawn(int spawnIndex) {
+        GameObject enemy = GameManager.instance.pool.Get(spawnIndex);
+        enemy.transform.position = transform.position;
     }
 }

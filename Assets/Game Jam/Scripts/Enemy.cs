@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -26,6 +27,10 @@ public class Enemy : MonoBehaviour
 
         rigidbody.MovePosition(rigidbody.position + nextVector);
         rigidbody.velocity = Vector2.zero;
+    }
+
+    void OnEnable() {
+        target = GameManager.instance.player.GetComponent<Rigidbody2D>();
     }
 
     // void LateUpdate() {
