@@ -8,10 +8,12 @@ public class Player : MonoBehaviour
     public Vector2 moveVector;
     public float speed;
     Rigidbody2D rigidbody2D;
+    SpriteRenderer sprite;
 
     void Awake()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
+        sprite = GetComponent<SpriteRenderer>();
     }
 
     void FixedUpdate() {
@@ -21,5 +23,11 @@ public class Player : MonoBehaviour
 
     void OnMove(InputValue input) {
         moveVector = input.Get<Vector2>();
+    }
+
+    void LateUpdate() {
+        if (moveVector.x != 0) {
+            sprite.flipX = moveVector.x <= 0;
+        }
     }
 }
