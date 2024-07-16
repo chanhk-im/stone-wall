@@ -29,6 +29,7 @@ public class SpawnPoint : MonoBehaviour
         GameObject enemy = GameManager.instance.pool.Get(0);
         enemy.transform.position = transform.position;
         enemy.GetComponent<Enemy>().Init(spawnData[level]);
+        enemy.GetComponent<SpriteRenderer>().color = Color.white;
     }
 }
 

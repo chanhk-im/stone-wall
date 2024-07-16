@@ -12,20 +12,23 @@ public class Enemy : MonoBehaviour
     public Rigidbody2D target;
 
     bool isLive;
+    bool isKnockBack;
 
     Rigidbody2D rigidbody;
     Animator animator;
     SpriteRenderer sprite;
+    WaitForFixedUpdate wait;
 
     void Awake()
     {
         rigidbody = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        wait = new WaitForFixedUpdate();
     }
 
     void FixedUpdate() {
-        if (!isLive) return;
+        if (!isLive || isKnockBack) return;
 
         Vector2 directionVector = target.position - rigidbody.position;
         Vector2 nextVector = directionVector.normalized * speed * Time.fixedDeltaTime;
@@ -37,6 +40,7 @@ public class Enemy : MonoBehaviour
     void OnEnable() {
         target = GameManager.instance.player.GetComponent<Rigidbody2D>();
         isLive = true;
+        isKnockBack = false;
         health = maxHealth;
     }
 
@@ -53,16 +57,29 @@ public class Enemy : MonoBehaviour
         }
 
         health -= collision.GetComponent<Bullet>().damage;
+        StartCoroutine(HitColor());
+        StartCoroutine(KnockBack());
 
         if (health > 0) {
-
+            isKnockBack = true;
         } else {
             Dead();
         }
     }
 
+    IEnumerator HitColor() {
+        sprite.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        sprite.color = Color.white;
+    }
+
     IEnumerator KnockBack() {
-        yield return null;
+        yield return wait;
+        Vector3 playerVector = GameManager.instance.player.transform.position;
+        Vector3 directionVector = transform.position - playerVector;
+        rigidbody.AddForce(directionVector.normalized * 3, ForceMode2D.Impulse);
+        yield return new WaitForSeconds(0.1f);
+        isKnockBack = false;
     }
 
     void Dead() {
