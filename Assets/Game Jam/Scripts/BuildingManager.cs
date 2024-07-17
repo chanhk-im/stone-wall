@@ -7,6 +7,13 @@ using UnityEngine.UI;
 public class BuildingManager : MonoBehaviour
 {
     private GameObject currentBuilding;
+    private Building currentBuildingStatus;
+    Collider2D currentBuildingCollider;
+    bool isInUnableArea;
+
+    void Awake() {
+        isInUnableArea = false;
+    }
 
     void Update() {
         if (currentBuilding != null) {
@@ -22,11 +29,14 @@ public class BuildingManager : MonoBehaviour
     {
         Building building = buildingPrefab.GetComponent<Building>();
 
-        if (GameManager.instance.money > building.cost)
+        if (GameManager.instance.money >= building.cost)
         {
             currentBuilding = Instantiate(buildingPrefab);
-            currentBuilding.GetComponent<BoxCollider2D>().enabled = false;
-            GameManager.instance.isBuilding = true;
+            currentBuildingStatus = currentBuilding.GetComponent<Building>(); 
+            currentBuildingCollider = currentBuilding.GetComponent<Collider2D>();
+
+            // 충돌 무시 설정
+            currentBuildingCollider.isTrigger = true;
         } else {
             Debug.Log("돈없다");
         }
@@ -37,18 +47,24 @@ public class BuildingManager : MonoBehaviour
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePosition.z = 0;  // Z축 값을 0으로 설정하여 2D 위치로 만듦
         currentBuilding.transform.position = mousePosition;
-        currentBuilding.GetComponent<Renderer>().material.color = IsValidPlacement() ? Color.green : Color.red;
+        if (IsValidPlacement()) {
+            currentBuilding.GetComponent<Renderer>().material.color = Color.green;
+        } else {
+            currentBuilding.GetComponent<Renderer>().material.color = Color.red;
+        }
     }
 
     void ReleaseBuilding()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && IsValidPlacement())
         {
             Building building = currentBuilding.GetComponent<Building>();
             currentBuilding.GetComponent<Renderer>().material.color = Color.white;
-            currentBuilding.GetComponent<BoxCollider2D>().enabled = true;
+            currentBuildingCollider.isTrigger = false;
+
             currentBuilding = null;
-            
+            currentBuildingCollider = null;
+        
             GameManager.instance.isBuilding = false;
             GameManager.instance.money -= building.cost;
         }
@@ -65,6 +81,22 @@ public class BuildingManager : MonoBehaviour
 
     bool IsValidPlacement()
     {
+        if (currentBuildingStatus.isInsideNoBuildZone || IsOverlapping()) return false;
         return true;
+    }
+
+    bool IsOverlapping()
+    {
+        Bounds bounds = currentBuildingCollider.bounds;
+        Collider2D[] overlaps = Physics2D.OverlapAreaAll(bounds.min, bounds.max);
+        foreach (var overlap in overlaps)
+        {
+            // Debug.Log(overlap.gameObject.name);
+            if (overlap != currentBuildingCollider)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }

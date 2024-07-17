@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     [Header("# Game Object")]
     public Player player;
     public PoolManager pool;
+    public GameObject hud;
     public GameObject uiResult;
 
     void Awake()
@@ -50,6 +51,7 @@ public class GameManager : MonoBehaviour
         isLive = false;
         yield return new WaitForSeconds(0.5f);
         uiResult.SetActive(true);
+        hud.SetActive(false);
         Stop();
     }
 

@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Light
   - Building
+  - UnableArea
   layers:
   - Default
   - TransparentFX

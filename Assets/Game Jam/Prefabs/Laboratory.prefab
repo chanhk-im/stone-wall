@@ -381,7 +381,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8547212557937853009}
-  m_BodyType: 2
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -415,6 +415,7 @@ MonoBehaviour:
   health: 0
   maxHealth: 100
   cost: 200
+  isBuilded: 0
 --- !u!1 &9144761056821266253
 GameObject:
   m_ObjectHideFlags: 0
