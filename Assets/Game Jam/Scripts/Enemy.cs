@@ -48,8 +48,6 @@ public class Enemy : MonoBehaviour
         targets = Physics2D.CircleCastAll(transform.position, attackRange, Vector2.zero, 0, targetLayer);
         nearstTarget = GetNearst();
 
-        
-
         Vector2 directionVector = target.position - rigidbody.position;
         Vector2 nextVector = speed * Time.fixedDeltaTime * directionVector.normalized;
 
@@ -59,7 +57,7 @@ public class Enemy : MonoBehaviour
         float distanceToPlayer = Vector2.Distance(transform.position, playerTransform.position);
 
         if (Time.time >= lastAttackTime + attackSpeed)
-        {
+        {   
             if (nearstTarget && nearstTarget.CompareTag("Building")) {
                 Attack(nearstTarget);
                 lastAttackTime = Time.time;
@@ -108,6 +106,7 @@ public class Enemy : MonoBehaviour
             sprite.sortingOrder = 1;
             animator.SetBool("Dead", true);
             GameManager.instance.money += reward;
+            GameManager.instance.kills++;
         }
     }
 
