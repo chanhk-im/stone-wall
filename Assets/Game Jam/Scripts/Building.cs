@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Building : MonoBehaviour
 {
-    public SpriteRenderer sprite;
-
-    
+    public int health;
+    public int maxHealth;
+    public int cost;
 }

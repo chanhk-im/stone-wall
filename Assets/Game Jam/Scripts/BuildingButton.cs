@@ -1,29 +1,25 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class BuildingButton : MonoBehaviour
 {
-    public GameObject contents;
+    public GameObject prefab;
+    public Image buttonImage;
+    public Text costText;
 
-    Button button;
-    bool isContentsActive;
+    Building building;
+    SpriteRenderer buildingSprite;
 
     void Awake() {
-        isContentsActive = false;
-        // slider = GetComponent<Slider>();
+        building = prefab.GetComponent<Building>();
+        buildingSprite = prefab.GetComponent<SpriteRenderer>();
     }
 
     void Start() {
-        button.onClick.AddListener(OnClickButton);
-        contents.SetActive(false);
-    }
-
-    void OnClickButton() {
-        isContentsActive = !isContentsActive;
-        contents.SetActive(isContentsActive);
-        Debug.Log(contents.activeSelf);
+        costText.text = String.Format("{0:D}G", building.cost);
+        buttonImage.sprite = buildingSprite.sprite;
     }
 }

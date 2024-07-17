@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     [Header("# Game Control")]
     public float gameTime;
+    public bool isBuilding;
     [Header("# Player Info")]
     public int money;
 
