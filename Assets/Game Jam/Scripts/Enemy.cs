@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     public float speed;
     public float health;
     public float maxHealth;
+    public int reward;
     public RuntimeAnimatorController[] animatorControllers;
     public Rigidbody2D target;
 
@@ -15,6 +16,7 @@ public class Enemy : MonoBehaviour
     bool isKnockBack;
 
     Rigidbody2D rigidbody;
+    Collider2D collider2D;
     Animator animator;
     SpriteRenderer sprite;
     WaitForFixedUpdate wait;
@@ -22,6 +24,7 @@ public class Enemy : MonoBehaviour
     void Awake()
     {
         rigidbody = GetComponent<Rigidbody2D>();
+        collider2D = GetComponent<Collider2D>();
         sprite = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         wait = new WaitForFixedUpdate();
@@ -40,7 +43,11 @@ public class Enemy : MonoBehaviour
     void OnEnable() {
         target = GameManager.instance.player.GetComponent<Rigidbody2D>();
         isLive = true;
+        collider2D.enabled = true;
+        rigidbody.simulated = true;
+        sprite.sortingOrder = 2;
         isKnockBack = false;
+        animator.SetBool("Dead", false);
         health = maxHealth;
     }
 
@@ -49,6 +56,7 @@ public class Enemy : MonoBehaviour
         speed = data.speed;
         maxHealth = data.health;
         health = data.health;
+        reward = data.reward;
     }
 
     void OnTriggerEnter2D(Collider2D collision) {
@@ -61,9 +69,15 @@ public class Enemy : MonoBehaviour
         StartCoroutine(KnockBack());
 
         if (health > 0) {
+            // Debug.Log("hit");
             isKnockBack = true;
         } else {
-            Dead();
+            isLive = false;
+            collider2D.enabled = false;
+            rigidbody.simulated = false;
+            sprite.sortingOrder = 1;
+            animator.SetBool("Dead", true);
+            GameManager.instance.money += reward;
         }
     }
 
