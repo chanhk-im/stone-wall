@@ -7,14 +7,12 @@ using UnityEngine.UI;
 
 public class HUD : MonoBehaviour
 {
-    public enum InfoType {Money, Time, BuildButton};
+    public enum InfoType {Money, Time, BuildButton, Health};
     public InfoType type;
     public GameObject contents;
 
     Text text;
     Slider slider;
-    Button button;
-    bool isContentsActive;
 
     void Awake() {
         switch (type) {
@@ -22,8 +20,8 @@ public class HUD : MonoBehaviour
             case InfoType.Time:
                 text = GetComponent<Text>();
                 break;
-            case InfoType.BuildButton:
-                isContentsActive = false;
+            case InfoType.Health:
+                slider = GetComponent<Slider>();
                 break;
         }
         
@@ -32,10 +30,6 @@ public class HUD : MonoBehaviour
     }
 
     void Start() {
-        if (type == InfoType.BuildButton) {
-            button.onClick.AddListener(OnClickButton);
-            contents.SetActive(false);
-        }
             
     }
 
@@ -51,15 +45,13 @@ public class HUD : MonoBehaviour
                 int sec = Mathf.FloorToInt(time % 60);
                 text.text = string.Format("Day {0} {1} {2:D2}:{3:D2}",GameManager.instance.days, dayOrNight, min, sec);
                 break;
-            case InfoType.BuildButton:
-                
+            case InfoType.Health:
+                int health = GameManager.instance.health;
+                int maxHealth = GameManager.instance.maxHealth;
+                float healthPer = (float)health / maxHealth;
+
+                slider.value = healthPer;
                 break;
         }
-    }
-
-    void OnClickButton() {
-        isContentsActive = !isContentsActive;
-        contents.SetActive(isContentsActive);
-        Debug.Log(contents.activeSelf);
     }
 }

@@ -23,6 +23,9 @@ public class Weapon : MonoBehaviour
     }
 
     void Update() {
+        bool isLive = GameManager.instance.isLive;
+        
+        if (!isLive) return;
         switch (id) {
             case 0:
                 timer += Time.deltaTime;

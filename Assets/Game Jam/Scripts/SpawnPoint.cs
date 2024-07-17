@@ -52,4 +52,7 @@ public class EnemyData {
     public float speed;
     public int reward;
     public int mobCount;
+    public int damage;
+    public float attackRange;
+    public float attackSpeed;
 }

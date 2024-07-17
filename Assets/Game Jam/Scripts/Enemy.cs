@@ -9,6 +9,9 @@ public class Enemy : MonoBehaviour
     public float health;
     public float maxHealth;
     public int reward;
+    public int damage;
+    public float attackRange;
+    public float attackSpeed;
     public RuntimeAnimatorController[] animatorControllers;
     public Rigidbody2D target;
 
@@ -20,6 +23,8 @@ public class Enemy : MonoBehaviour
     Animator animator;
     SpriteRenderer sprite;
     WaitForFixedUpdate wait;
+    Transform playerTransform;
+    float lastAttackTime = 0f; 
 
     void Awake()
     {
@@ -28,16 +33,25 @@ public class Enemy : MonoBehaviour
         sprite = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         wait = new WaitForFixedUpdate();
+        playerTransform = GameManager.instance.player.GetComponent<Transform>();
     }
 
     void FixedUpdate() {
         if (!isLive || isKnockBack) return;
 
         Vector2 directionVector = target.position - rigidbody.position;
-        Vector2 nextVector = directionVector.normalized * speed * Time.fixedDeltaTime;
+        Vector2 nextVector = speed * Time.fixedDeltaTime * directionVector.normalized;
 
         rigidbody.MovePosition(rigidbody.position + nextVector);
         rigidbody.velocity = Vector2.zero;
+
+        float distanceToPlayer = Vector2.Distance(transform.position, playerTransform.position);
+
+        if (distanceToPlayer <= attackRange && Time.time >= lastAttackTime + attackSpeed)
+        {
+            Attack();
+            lastAttackTime = Time.time; // 마지막 공격 시간 업데이트
+        }
     }
 
     void OnEnable() {
@@ -57,6 +71,9 @@ public class Enemy : MonoBehaviour
         maxHealth = data.health;
         health = data.health;
         reward = data.reward;
+        damage = data.damage;
+        attackRange = data.attackRange;
+        attackSpeed = data.attackSpeed;
     }
 
     void OnTriggerEnter2D(Collider2D collision) {
@@ -69,7 +86,6 @@ public class Enemy : MonoBehaviour
         StartCoroutine(KnockBack());
 
         if (health > 0) {
-            // Debug.Log("hit");
             isKnockBack = true;
         } else {
             isLive = false;
@@ -97,8 +113,18 @@ public class Enemy : MonoBehaviour
     }
 
     void Dead() {
-            gameObject.SetActive(false);
-        }
+        gameObject.SetActive(false);
+    }
+
+    void Attack() {
+        Debug.Log("attack!");
+        animator.SetBool("Attack", true);
+        StartCoroutine(GameManager.instance.player.HitByEnemy(damage));
+    }
+
+    public void DisableAttack() {
+        animator.SetBool("Attack", false);
+    }
 
     // void LateUpdate() {
     //     sprite.flipX = target.position.x < rigidbody.position.x;
