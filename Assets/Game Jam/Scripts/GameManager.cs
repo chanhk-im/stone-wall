@@ -7,7 +7,12 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     [Header("# Game Control")]
     public float gameTime;
+    public float remainTime;
     public bool isBuilding;
+    public bool isDay; // true: day, false: night
+    public int days;
+    public float dayLength;
+    public float nightLength;
     [Header("# Player Info")]
     public int money;
 
@@ -23,11 +28,27 @@ public class GameManager : MonoBehaviour
         instance = this;
     }
 
+    void Start() {
+        isDay = true;
+        remainTime = dayLength;
+        days = 1;
+        money = 1000;
+    }
+
     // Update is called once per frame
     void Update()
     {
         gameTime += Time.deltaTime;
         // Debug.Log(gameTime);
+
+        if (gameTime >= remainTime) {
+            gameTime = 0;
+            if (!isDay) {
+                days++;
+            }
+            isDay = !isDay;
+            remainTime = isDay ? dayLength : nightLength;
+        }
     }
 
     public void GetMoney(int gainMoney) {
