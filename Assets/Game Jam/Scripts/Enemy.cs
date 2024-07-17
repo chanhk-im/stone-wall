@@ -69,7 +69,7 @@ public class Enemy : MonoBehaviour
         StartCoroutine(KnockBack());
 
         if (health > 0) {
-            Debug.Log("hit");
+            // Debug.Log("hit");
             isKnockBack = true;
         } else {
             isLive = false;

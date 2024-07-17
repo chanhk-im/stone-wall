@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
-  m_Name: RanTile
+  m_Name: RandomTile
   m_EditorClassIdentifier: 
   m_DefaultSprite: {fileID: 0}
   m_DefaultGameObject: {fileID: 0}
@@ -18,20 +18,18 @@ MonoBehaviour:
   m_TilingRules:
   - m_Id: 0
     m_Sprites:
-    - {fileID: 2093186594, guid: 9ee30eb7d2f1f404790266ee96a67099, type: 3}
-    - {fileID: 2093186594, guid: 9ee30eb7d2f1f404790266ee96a67099, type: 3}
-    - {fileID: -2031541144, guid: 9ee30eb7d2f1f404790266ee96a67099, type: 3}
-    - {fileID: -2031541144, guid: 9ee30eb7d2f1f404790266ee96a67099, type: 3}
-    - {fileID: 693853673, guid: 9ee30eb7d2f1f404790266ee96a67099, type: 3}
-    - {fileID: 693853673, guid: 9ee30eb7d2f1f404790266ee96a67099, type: 3}
-    - {fileID: 693853673, guid: 9ee30eb7d2f1f404790266ee96a67099, type: 3}
-    - {fileID: 179664457, guid: 9ee30eb7d2f1f404790266ee96a67099, type: 3}
-    - {fileID: 1830541467, guid: 9ee30eb7d2f1f404790266ee96a67099, type: 3}
-    - {fileID: -133327340, guid: 9ee30eb7d2f1f404790266ee96a67099, type: 3}
+    - {fileID: 21300000, guid: c347206643c0d514294fd0eb5d4d3496, type: 3}
+    - {fileID: 21300000, guid: ee39e822105b4f149b76ad27abe4c2ad, type: 3}
+    - {fileID: 21300000, guid: 2c18d1813288f694d9da137955f8ac7b, type: 3}
+    - {fileID: 21300000, guid: 582f4e4c048160f4b8eff8c6f952d9e5, type: 3}
+    - {fileID: 21300000, guid: c347206643c0d514294fd0eb5d4d3496, type: 3}
+    - {fileID: 21300000, guid: ee39e822105b4f149b76ad27abe4c2ad, type: 3}
+    - {fileID: 21300000, guid: fdabe0ae1d137074ea13909d8266426a, type: 3}
+    - {fileID: 21300000, guid: c347206643c0d514294fd0eb5d4d3496, type: 3}
     m_GameObject: {fileID: 0}
     m_MinAnimationSpeed: 1
     m_MaxAnimationSpeed: 1
-    m_PerlinScale: 0.832
+    m_PerlinScale: 0.5
     m_Output: 1
     m_ColliderType: 1
     m_RandomTransform: 0

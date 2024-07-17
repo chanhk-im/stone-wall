@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         gameTime += Time.deltaTime;
-        Debug.Log(gameTime);
+        // Debug.Log(gameTime);
     }
 
     public void GetMoney(int gainMoney) {
