@@ -188,9 +188,14 @@ MonoBehaviour:
   health: 0
   maxHealth: 0
   reward: 0
+  damage: 0
   attackRange: 0
   attackSpeed: 0
   animatorControllers:
   - {fileID: 9100000, guid: e029f848d84aa40b5bfe822b960b52cd, type: 2}
   - {fileID: 9100000, guid: 60614215dd6404e3d884cd8fc09a3398, type: 2}
   target: {fileID: 0}
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  nearstTarget: {fileID: 0}

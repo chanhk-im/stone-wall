@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8083391865148668084}
   - component: {fileID: 8565075935949306512}
   - component: {fileID: 280259436041229544}
-  m_Layer: 20
+  m_Layer: 3
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -138,7 +138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1000947839293955400}
   - component: {fileID: 8629262529555201901}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LaboratoryLight
   m_TagString: Light
   m_Icon: {fileID: 0}
@@ -251,7 +251,7 @@ GameObject:
   - component: {fileID: 1807415898400829529}
   - component: {fileID: 743724265500526592}
   - component: {fileID: 6882558625453322443}
-  m_Layer: 20
+  m_Layer: 3
   m_Name: Laboratory
   m_TagString: Building
   m_Icon: {fileID: 0}
@@ -416,6 +416,7 @@ MonoBehaviour:
   maxHealth: 100
   cost: 200
   isBuilded: 0
+  isInsideNoBuildZone: 0
 --- !u!1 &9144761056821266253
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,7 +427,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8477643866404628838}
   - component: {fileID: 3368438607227695524}
-  m_Layer: 20
+  m_Layer: 3
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
