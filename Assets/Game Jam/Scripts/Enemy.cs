@@ -26,6 +26,11 @@ public class Enemy : MonoBehaviour
     Transform playerTransform;
     float lastAttackTime = 0f; 
 
+    public LayerMask targetLayer;
+    public RaycastHit2D[] targets;
+    public Transform nearstTarget;
+    float scanRange;
+
     void Awake()
     {
         rigidbody = GetComponent<Rigidbody2D>();
@@ -34,10 +39,16 @@ public class Enemy : MonoBehaviour
         animator = GetComponent<Animator>();
         wait = new WaitForFixedUpdate();
         playerTransform = GameManager.instance.player.GetComponent<Transform>();
+        scanRange = 5;
     }
 
     void FixedUpdate() {
         if (!isLive || isKnockBack) return;
+
+        targets = Physics2D.CircleCastAll(transform.position, attackRange, Vector2.zero, 0, targetLayer);
+        nearstTarget = GetNearst();
+
+        
 
         Vector2 directionVector = target.position - rigidbody.position;
         Vector2 nextVector = speed * Time.fixedDeltaTime * directionVector.normalized;
@@ -47,10 +58,15 @@ public class Enemy : MonoBehaviour
 
         float distanceToPlayer = Vector2.Distance(transform.position, playerTransform.position);
 
-        if (distanceToPlayer <= attackRange && Time.time >= lastAttackTime + attackSpeed)
+        if (Time.time >= lastAttackTime + attackSpeed)
         {
-            Attack();
-            lastAttackTime = Time.time; // 마지막 공격 시간 업데이트
+            if (nearstTarget && nearstTarget.CompareTag("Building")) {
+                Attack(nearstTarget);
+                lastAttackTime = Time.time;
+            } else if (distanceToPlayer <= attackRange) {
+                Attack();
+                lastAttackTime = Time.time;
+            }
         }
     }
 
@@ -77,9 +93,7 @@ public class Enemy : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D collision) {
-        if (!collision.CompareTag("Bullet")) {
-            return;
-        }
+        if (!collision.CompareTag("Bullet")) return;
 
         health -= collision.GetComponent<Bullet>().damage;
         StartCoroutine(HitColor());
@@ -112,14 +126,37 @@ public class Enemy : MonoBehaviour
         isKnockBack = false;
     }
 
+    Transform GetNearst() {
+        Transform result = null;
+        float diff = 100;
+
+        foreach (RaycastHit2D target in targets) {
+            Vector3 myPos = transform.position;
+            Vector3 targetPos = target.transform.position;
+            float currDiff = Vector3.Distance(targetPos, myPos);
+
+            if (currDiff < diff) {
+                diff = currDiff; 
+                result = target.transform;
+            }
+        }
+
+        return result;
+    }
+
     void Dead() {
         gameObject.SetActive(false);
     }
 
     void Attack() {
-        Debug.Log("attack!");
         animator.SetBool("Attack", true);
         StartCoroutine(GameManager.instance.player.HitByEnemy(damage));
+    }
+
+    void Attack(Transform building) {
+        Debug.Log("attack building!");
+        animator.SetBool("Attack", true);
+        StartCoroutine(building.GetComponent<Building>().HitByEnemy(damage));
     }
 
     public void DisableAttack() {
