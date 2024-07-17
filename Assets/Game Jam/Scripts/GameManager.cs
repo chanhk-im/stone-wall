@@ -14,17 +14,23 @@ public class GameManager : MonoBehaviour
     public int days;
     public float dayLength;
     public float nightLength;
+    public float lastRegenerateTime = 0f;
     [Header("# Player Info")]
     public int money;
     public bool isLive;
     public int health;
+    public int healthRegeneration;
     public int maxHealth = 100;
+    public int kills;
+    public float regenerateSpeed = 1f;
 
     [Header("# Game Object")]
     public Player player;
     public PoolManager pool;
     public GameObject hud;
     public GameObject uiResult;
+    public GameObject laboratoryUI;
+
 
     void Awake()
     {
@@ -32,6 +38,7 @@ public class GameManager : MonoBehaviour
 
         // }
         instance = this;
+        isDay = true;
     }
 
     public void GameStart() {
@@ -41,6 +48,8 @@ public class GameManager : MonoBehaviour
         money = 1000;
         isLive = true;
         health = maxHealth;
+        healthRegeneration = 1;
+        StartCoroutine(RegenerateHealth());
     }
 
     public void GameOver() {
@@ -91,5 +100,31 @@ public class GameManager : MonoBehaviour
     public void Resume() {
         isLive = true;
         Time.timeScale = 1;
+    }
+
+    public void ActiveLaboratoryUI() {
+        laboratoryUI.SetActive(true);
+        Stop();
+    }
+
+    private IEnumerator RegenerateHealth() {
+        while (true) {
+            yield return new WaitForSeconds(regenerateSpeed);
+            Regenerate();
+        }
+    }
+
+    private void Regenerate() {
+        if (Time.time >= lastRegenerateTime + regenerateSpeed)
+        {
+            if (health < maxHealth) {
+                if (health + healthRegeneration > maxHealth) {
+                    health = maxHealth;
+                } else {
+                    health += healthRegeneration;
+                }
+                lastRegenerateTime = Time.time;
+            }
+        }
     }
 }

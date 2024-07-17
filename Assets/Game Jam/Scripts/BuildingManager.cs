@@ -18,7 +18,7 @@ public class BuildingManager : MonoBehaviour
     void Update() {
         if (currentBuilding != null) {
             MoveBuildingToMouse();
-            ReleaseBuilding();
+            StartCoroutine(ReleaseBuilding());
             CancelBuilding();
         } else {
             // StartPlacingBuilding();
@@ -54,11 +54,12 @@ public class BuildingManager : MonoBehaviour
         }
     }
 
-    void ReleaseBuilding()
+    IEnumerator ReleaseBuilding()
     {
         if (Input.GetMouseButtonDown(0) && IsValidPlacement())
         {
             Building building = currentBuilding.GetComponent<Building>();
+            
             currentBuilding.GetComponent<Renderer>().material.color = Color.white;
             currentBuildingCollider.isTrigger = false;
 
@@ -67,6 +68,11 @@ public class BuildingManager : MonoBehaviour
         
             GameManager.instance.isBuilding = false;
             GameManager.instance.money -= building.cost;
+
+            yield return null;
+            yield return null;
+            yield return null;
+            building.isBuilded = true;
         }
     }
 

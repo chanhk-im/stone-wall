@@ -197,5 +197,5 @@ MonoBehaviour:
   target: {fileID: 0}
   targetLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 128
   nearstTarget: {fileID: 0}

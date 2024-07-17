@@ -9,6 +9,11 @@ public class BuildingButton : MonoBehaviour
     public GameObject prefab;
     public Image buttonImage;
     public Text costText;
+    public Text tooltipTitle;
+    public Text tooltipContent;
+    [Header("# Building Information")]
+    public string title;
+    public string content;
 
     Building building;
     SpriteRenderer buildingSprite;
@@ -21,5 +26,7 @@ public class BuildingButton : MonoBehaviour
     void Start() {
         costText.text = String.Format("{0:D}G", building.cost);
         buttonImage.sprite = buildingSprite.sprite;
+        tooltipTitle.text = title;
+        tooltipContent.text = content;
     }
 }

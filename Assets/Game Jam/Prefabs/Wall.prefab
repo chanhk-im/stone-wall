@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2393284498298021126}
   - component: {fileID: 4607994504872217262}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1648120446679023284}
   - component: {fileID: 8225721726029910184}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: WallLight
   m_TagString: Light
   m_Icon: {fileID: 0}
@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 1683854015647505932}
   - component: {fileID: -2924060256416398403}
   - component: {fileID: 1181178800280083145}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: Wall
   m_TagString: Building
   m_Icon: {fileID: 0}
@@ -385,3 +385,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5aa39ddedbf94db5a49f3125e380c6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthRegeneration: 1
