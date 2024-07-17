@@ -418,6 +418,8 @@ MonoBehaviour:
   cost: 200
   isBuilded: 0
   isInsideNoBuildZone: 0
+  buildingInfoPrefab: {fileID: 6188927383315541259, guid: 2ffbd873387b3d147af6f1299d2261c6,
+    type: 3}
 --- !u!114 &5888034660816328879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -430,7 +432,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a62a873090116a04293eda9e8a714508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buildingUI: {fileID: 0}
 --- !u!1 &9144761056821266253
 GameObject:
   m_ObjectHideFlags: 0

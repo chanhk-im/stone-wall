@@ -199,3 +199,5 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   nearstTarget: {fileID: 0}
+  incomeTextPrefab: {fileID: 5857281893770425213, guid: 135605b5b8cdfa645b651e1f1f1944a6,
+    type: 3}

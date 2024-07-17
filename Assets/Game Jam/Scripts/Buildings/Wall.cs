@@ -7,6 +7,7 @@ public class Wall : MonoBehaviour
     float lastRegenerateTime = 0f;
     readonly float regenerateSpeed = 1f;
     public int healthRegeneration;
+    private int originalHealthRegeneration;
 
     private Building building;
     void Awake()
@@ -16,6 +17,7 @@ public class Wall : MonoBehaviour
 
     void Start() {
         StartCoroutine(RegenerateHealth());
+        originalHealthRegeneration = healthRegeneration;
     }
 
     // Update is called once per frame
@@ -38,5 +40,10 @@ public class Wall : MonoBehaviour
                 lastRegenerateTime = Time.time;
             }
         }
+    }
+
+    private void OnDisable()
+    {
+        healthRegeneration = originalHealthRegeneration;
     }
 }
