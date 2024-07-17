@@ -51,7 +51,7 @@ public class Enemy : MonoBehaviour
         health = maxHealth;
     }
 
-    public void Init(SpawnData data) {
+    public void Init(EnemyData data) {
         animator.runtimeAnimatorController = animatorControllers[data.spriteType];
         speed = data.speed;
         maxHealth = data.health;

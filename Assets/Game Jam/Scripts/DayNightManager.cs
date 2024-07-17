@@ -35,8 +35,9 @@ public class DayNightManager : MonoBehaviour
             if (gameTime > nightLength - startTimeToChangeColor) {
                 lerpFactor = (gameTime - nightLength + startTimeToChangeColor) / startTimeToChangeColor;
                 globalLight.color = Color.Lerp(nightColor, dayColor, lerpFactor);
+            } else {
+                globalLight.color = nightColor;
             }
-            globalLight.color = nightColor;
         }
     }
 }
