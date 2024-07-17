@@ -373,6 +373,8 @@ MonoBehaviour:
   cost: 100
   isBuilded: 0
   isInsideNoBuildZone: 0
+  buildingInfoPrefab: {fileID: 6188927383315541259, guid: 2ffbd873387b3d147af6f1299d2261c6,
+    type: 3}
 --- !u!114 &1181178800280083145
 MonoBehaviour:
   m_ObjectHideFlags: 0
