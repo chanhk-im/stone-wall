@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 132062733382263374}
   - component: {fileID: -8971303485548932435}
   - component: {fileID: 2070683441087653894}
+  - component: {fileID: 69396761907951965}
   m_Layer: 7
   m_Name: MiningBuilding
   m_TagString: Building
@@ -151,6 +152,8 @@ MonoBehaviour:
   cost: 100
   isBuilded: 0
   isInsideNoBuildZone: 0
+  buildingInfoPrefab: {fileID: 6188927383315541259, guid: 2ffbd873387b3d147af6f1299d2261c6,
+    type: 3}
 --- !u!50 &2070683441087653894
 Rigidbody2D:
   serializedVersion: 4
@@ -178,6 +181,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &69396761907951965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677205238537618733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caa812c451110864aacfc9fa156fcdc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  income: 1
+  incomeTic: 3
+  incomeTextPrefab: {fileID: 5857281893770425213, guid: 135605b5b8cdfa645b651e1f1f1944a6,
+    type: 3}
 --- !u!1 &2115208082404006344
 GameObject:
   m_ObjectHideFlags: 0

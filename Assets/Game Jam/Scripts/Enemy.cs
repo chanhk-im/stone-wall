@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
@@ -31,6 +32,10 @@ public class Enemy : MonoBehaviour
     public Transform nearstTarget;
     float scanRange;
 
+    public GameObject incomeTextPrefab;
+    GameObject incomeTextInstance;
+    private Camera mainCamera;
+
     void Awake()
     {
         rigidbody = GetComponent<Rigidbody2D>();
@@ -40,6 +45,7 @@ public class Enemy : MonoBehaviour
         wait = new WaitForFixedUpdate();
         playerTransform = GameManager.instance.player.GetComponent<Transform>();
         scanRange = 5;
+        mainCamera = Camera.main;
     }
 
     void FixedUpdate() {
@@ -65,6 +71,11 @@ public class Enemy : MonoBehaviour
                 Attack();
                 lastAttackTime = Time.time;
             }
+        }
+
+        if (incomeTextInstance) {
+            Vector3 screenPosition = mainCamera.WorldToScreenPoint(transform.position + Vector3.up * 2);
+            incomeTextInstance.transform.position = screenPosition;
         }
     }
 
@@ -107,7 +118,17 @@ public class Enemy : MonoBehaviour
             animator.SetBool("Dead", true);
             GameManager.instance.money += reward;
             GameManager.instance.kills++;
+            StartCoroutine(PrintIncome());
         }
+    }
+
+    IEnumerator PrintIncome() {
+        incomeTextInstance = Instantiate(incomeTextPrefab);
+        incomeTextInstance.transform.SetParent(GameObject.Find("Canvas").transform, false);
+        incomeTextInstance.GetComponent<Text>().text = string.Format("+{0}G", reward);
+        yield return new WaitForSeconds(0.5f);
+        Destroy(incomeTextInstance);
+        incomeTextInstance = null;
     }
 
     IEnumerator HitColor() {
