@@ -25,6 +25,7 @@ public class Building : MonoBehaviour
 
     private void Start() {
         originalMaxHealth = maxHealth;
+        mainCamera = Camera.main;
         isShowInfo = false;
     }
 
@@ -75,12 +76,14 @@ public class Building : MonoBehaviour
             GameObject clickedObject = hit.collider.gameObject;
             if (clickedObject == gameObject)
             {
-                if (!isShowInfo)
+                if (!isShowInfo) {
                     ShowBuildingUI(clickedObject);
+                    isShowInfo = true;
+                }
+                    
                 else {
                     isShowInfo = false;
-                    Destroy(buildingInfoInstance);
-                    buildingInfoInstance = null;
+                    HideBuildingUI();
                 }
             }
         }
@@ -95,5 +98,10 @@ public class Building : MonoBehaviour
             texts[0].text = "건물";
             texts[1].text = string.Format("체력: {0} / {1}", health, maxHealth);
         }
+    }
+
+    void HideBuildingUI() {
+        Destroy(buildingInfoInstance);
+        buildingInfoInstance = null;
     }
 }

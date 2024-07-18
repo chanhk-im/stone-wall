@@ -18,13 +18,13 @@ MonoBehaviour:
   researchDesc: "\uCC44\uAD74\uAE30\uC758 \uC218\uC785\uB7C9\uC744 {0}\uB9CC\uD07C
     \uC99D\uAC00\uC2DC\uD0B5\uB2C8\uB2E4."
   researchIcon: {fileID: -1997803578, guid: 0d5e657ee5a074e4baa53d5b248a01d2, type: 3}
-  maxLevel: 100
-  baseCost: 150
+  maxLevel: 30
+  baseCost: 300
   researchTarget: {fileID: 1677205238537618733, guid: f3109bebb9177ed4ba40ef02b0f929e6,
     type: 3}
   isIncreaseValueStatic: 1
   isCostValueStatic: 1
   costs: 
-  cost: 50
+  cost: 100
   increaseValues: 
   increaseValue: 1

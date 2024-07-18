@@ -36,16 +36,19 @@ public class ResearchButton : MonoBehaviour
             ResearchData.ResearchType.WallHealthRegeneration => string.Format(data.researchDesc, increaseValueResult),
             ResearchData.ResearchType.Attack => string.Format(data.researchDesc, increaseValueResult),
             ResearchData.ResearchType.Income => string.Format(data.researchDesc, increaseValueResult),
+            ResearchData.ResearchType.PlayerHealth => string.Format(data.researchDesc, increaseValueResult),
+            ResearchData.ResearchType.PlayerHealthRegeneration => string.Format(data.researchDesc, increaseValueResult),
+             ResearchData.ResearchType.BulletPenetration => string.Format(data.researchDesc, increaseValueResult),
             _ => data.researchDesc,
         };
     }
 
     public void OnClick() {
-        if (GameManager.instance.money < data.baseCost + (data.isCostValueStatic ? data.cost * (level + 1) : data.costs[level])) {
+        if (GameManager.instance.money < data.baseCost + (data.isCostValueStatic ? data.cost * level : data.costs[level])) {
             Debug.Log("돈없다");
             return;
         }
-        GameManager.instance.money -= data.baseCost + (data.isCostValueStatic ? data.cost * (level + 1) : data.costs[level]);
+        GameManager.instance.money -= data.baseCost + (data.isCostValueStatic ? data.cost * level : data.costs[level]);
         int increaseValueResult = data.isIncreaseValueStatic ? data.increaseValue : data.increaseValues[level];
         switch (data.researchType) {
             case ResearchData.ResearchType.WallHealth:
@@ -69,6 +72,16 @@ public class ResearchButton : MonoBehaviour
                 foreach (GameObject mining in GameObject.FindGameObjectsWithTag("Building").Where(building => building.GetComponent<MiningBuilding>() != null).ToArray()) {
                     mining.GetComponent<MiningBuilding>().income += increaseValueResult;
                 }
+                break;
+            case ResearchData.ResearchType.PlayerHealth:
+                GameManager.instance.maxHealth += increaseValueResult;
+                GameManager.instance.health += increaseValueResult;
+                break;
+            case ResearchData.ResearchType.PlayerHealthRegeneration:
+                GameManager.instance.healthRegeneration += increaseValueResult;
+                break;
+            case ResearchData.ResearchType.BulletPenetration:
+                GameManager.instance.player.GetComponent<Weapon>().count += increaseValueResult;
                 break;
         }
         if (level + 1 < data.maxLevel)

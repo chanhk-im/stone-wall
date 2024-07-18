@@ -35,6 +35,7 @@ public class SpawnPoint : MonoBehaviour
         GameObject enemy = GameManager.instance.pool.Get(0);
         enemy.transform.position = transform.position;
         enemy.GetComponent<Enemy>().Init(enemyData);
+        enemy.transform.localScale = enemyData.scale;
         enemy.GetComponent<SpriteRenderer>().color = Color.white;
     }
 }
@@ -55,4 +56,5 @@ public class EnemyData {
     public int damage;
     public float attackRange;
     public float attackSpeed;
+    public Vector3 scale;
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Analytics;
 using UnityEngine.UI;
 
 public class MiningBuilding : MonoBehaviour
@@ -10,8 +11,13 @@ public class MiningBuilding : MonoBehaviour
     public float incomeTic;
     public GameObject incomeTextPrefab;
     GameObject incomeTextInstance;
+    Building building;
     float lastDepositTime = 0f;
     private Camera mainCamera;
+
+    private void Awake() {
+        building = GetComponent<Building>();
+    }
 
 
     void Start() {
@@ -38,6 +44,7 @@ public class MiningBuilding : MonoBehaviour
     private void Deposit() {
         if (Time.time >= lastDepositTime + incomeTic)
         {
+            if (!building.isBuilded) return;
             GameManager.instance.money += income;
             StartCoroutine(PrintIncome());
         }

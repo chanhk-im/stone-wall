@@ -99,7 +99,7 @@ Animator:
   m_GameObject: {fileID: 1695716684443978278}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 60614215dd6404e3d884cd8fc09a3398, type: 2}
+  m_Controller: {fileID: 9100000, guid: a8e9b9e27e45e42c6b1e6e1d8ec88355, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -194,10 +194,13 @@ MonoBehaviour:
   animatorControllers:
   - {fileID: 9100000, guid: e029f848d84aa40b5bfe822b960b52cd, type: 2}
   - {fileID: 9100000, guid: 60614215dd6404e3d884cd8fc09a3398, type: 2}
+  - {fileID: 9100000, guid: a8e9b9e27e45e42c6b1e6e1d8ec88355, type: 2}
   target: {fileID: 0}
   targetLayer:
     serializedVersion: 2
     m_Bits: 128
   nearstTarget: {fileID: 0}
   incomeTextPrefab: {fileID: 5857281893770425213, guid: 135605b5b8cdfa645b651e1f1f1944a6,
+    type: 3}
+  enemyInfoPrefab: {fileID: 6188927383315541259, guid: f799c1ab218623d4bacd8aee32cce904,
     type: 3}

@@ -17,8 +17,8 @@ MonoBehaviour:
   researchName: "\uAC74\uBB3C \uCCB4\uB825 \uC99D\uAC00"
   researchDesc: "\uAC74\uBB3C\uC758 \uCCB4\uB825\uC744 {0}\uB9CC\uD07C \uC99D\uAC00\uC2DC\uD0B5\uB2C8\uB2E4."
   researchIcon: {fileID: 21300130, guid: 29c9cded5e558164aaf8c9bf08aa1510, type: 3}
-  maxLevel: 10
-  baseCost: 100
+  maxLevel: 100
+  baseCost: 150
   researchTarget: {fileID: 8673166250040959371, guid: fd91e5483e5be496c99b0f98685ca64c,
     type: 3}
   isIncreaseValueStatic: 1

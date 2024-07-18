@@ -415,7 +415,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 0
   maxHealth: 100
-  cost: 200
+  cost: 250
   isBuilded: 0
   isInsideNoBuildZone: 0
   buildingInfoPrefab: {fileID: 6188927383315541259, guid: 2ffbd873387b3d147af6f1299d2261c6,

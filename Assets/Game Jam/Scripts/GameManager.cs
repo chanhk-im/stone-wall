@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
         isDay = true;
         remainTime = dayLength;
         days = 1;
-        money = 1000;
+        money = 600;
         isLive = true;
         health = maxHealth;
         healthRegeneration = 1;

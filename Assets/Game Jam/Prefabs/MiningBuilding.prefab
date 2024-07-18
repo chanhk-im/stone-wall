@@ -149,7 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 0
   maxHealth: 60
-  cost: 100
+  cost: 150
   isBuilded: 0
   isInsideNoBuildZone: 0
   buildingInfoPrefab: {fileID: 6188927383315541259, guid: 2ffbd873387b3d147af6f1299d2261c6,
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caa812c451110864aacfc9fa156fcdc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  income: 1
+  income: 5
   incomeTic: 3
   incomeTextPrefab: {fileID: 5857281893770425213, guid: 135605b5b8cdfa645b651e1f1f1944a6,
     type: 3}

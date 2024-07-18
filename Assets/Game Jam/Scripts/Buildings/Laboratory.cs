@@ -21,7 +21,8 @@ public class Laboratory : MonoBehaviour
         if (hit.collider != null)
         {
             GameObject clickedObject = hit.collider.gameObject;
-            if (clickedObject == gameObject)
+            float distance = Vector3.Distance(clickedObject.transform.position, GameManager.instance.player.transform.position);
+            if (clickedObject == gameObject && distance < 3f)
             {
                 ShowBuildingUI(clickedObject);
             }

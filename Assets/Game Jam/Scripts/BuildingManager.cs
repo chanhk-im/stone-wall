@@ -29,9 +29,16 @@ public class BuildingManager : MonoBehaviour
     {
         Building building = buildingPrefab.GetComponent<Building>();
 
+        if (currentBuilding) {
+            Destroy(currentBuilding);
+            currentBuilding = null;
+            GameManager.instance.isBuilding = false;
+        }
+
         if (GameManager.instance.money >= building.cost)
         {
             currentBuilding = Instantiate(buildingPrefab);
+            currentBuilding.GetComponent<SpriteRenderer>().sortingLayerName = "Layer 3";
             currentBuildingStatus = currentBuilding.GetComponent<Building>(); 
             currentBuildingCollider = currentBuilding.GetComponent<Collider2D>();
 
@@ -54,13 +61,13 @@ public class BuildingManager : MonoBehaviour
         }
     }
 
-    IEnumerator ReleaseBuilding()
-    {
-        if (Input.GetMouseButtonDown(0) && IsValidPlacement())
-        {
+    IEnumerator ReleaseBuilding() {
+        if (Input.GetMouseButtonDown(0) && IsValidPlacement()) {
             Building building = currentBuilding.GetComponent<Building>();
             
             currentBuilding.GetComponent<Renderer>().material.color = Color.white;
+            currentBuilding.GetComponent<SpriteRenderer>().sortingLayerName = "Layer 1";
+            currentBuilding.GetComponent<SpriteRenderer>().sortingOrder = -(int)(currentBuilding.transform.position.y * 100);
             currentBuildingCollider.isTrigger = false;
 
             currentBuilding = null;

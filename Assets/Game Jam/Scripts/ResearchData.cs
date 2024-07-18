@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Research", menuName = "Scriptable Object/ResearchData")]
 public class ResearchData : ScriptableObject
 {
-    public enum ResearchType {Attack, PlayerHealth, PlayerHealthRegeneration, Income, IncomeTic, WallHealth, WallHealthRegeneration }
+    public enum ResearchType {Attack, PlayerHealth, PlayerHealthRegeneration, Income, IncomeTic, WallHealth, WallHealthRegeneration, BulletPenetration }
     [Header("# Main Information")]
     public ResearchType researchType;
     public int researchId;

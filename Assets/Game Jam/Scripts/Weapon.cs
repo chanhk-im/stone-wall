@@ -37,16 +37,6 @@ public class Weapon : MonoBehaviour
             default:
                 break;
         }
-
-        // Test
-        if (Input.GetKeyDown(KeyCode.LeftAlt)) {
-            LevelUp(20, 5);
-        }
-    }
-
-    public void LevelUp(float damage, int count) {
-        this.damage = damage;
-        this.count += count;
     }
 
     public void Init() {
