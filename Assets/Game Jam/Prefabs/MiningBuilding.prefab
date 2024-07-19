@@ -147,6 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bc8f3350b3bf244291036a099045dd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: 72d80db0a89e52c47866994ecaa7c53a, type: 2}
   health: 0
   maxHealth: 60
   cost: 150

@@ -18,6 +18,7 @@ public class Enemy : MonoBehaviour
 
     bool isLive;
     bool isKnockBack;
+    bool isAttack;
 
     Rigidbody2D rigidbody;
     Collider2D collider2D;
@@ -46,10 +47,11 @@ public class Enemy : MonoBehaviour
         playerTransform = GameManager.instance.player.GetComponent<Transform>();
         scanRange = 5;
         mainCamera = Camera.main;
+        isAttack = false;
     }
 
     void FixedUpdate() {
-        if (!isLive || isKnockBack) return;
+        if (!isLive || isKnockBack || isAttack) return;
 
         targets = Physics2D.CircleCastAll(transform.position, attackRange, Vector2.zero, 0, targetLayer);
         nearstTarget = GetNearst();
@@ -64,7 +66,7 @@ public class Enemy : MonoBehaviour
 
         if (Time.time >= lastAttackTime + attackSpeed)
         {   
-            if (nearstTarget && nearstTarget.CompareTag("Building")) {
+            if (nearstTarget && nearstTarget.CompareTag("Building") && nearstTarget.GetComponent<Building>().isBuilded) {
                 Attack(nearstTarget);
                 lastAttackTime = Time.time;
             } else if (distanceToPlayer <= attackRange) {
@@ -175,11 +177,13 @@ public class Enemy : MonoBehaviour
 
     void Attack(Transform building) {
         Debug.Log("attack building!");
+        isAttack = true;
         animator.SetBool("Attack", true);
         StartCoroutine(building.GetComponent<Building>().HitByEnemy(damage));
     }
 
     public void DisableAttack() {
+        isAttack = false;
         animator.SetBool("Attack", false);
     }
 

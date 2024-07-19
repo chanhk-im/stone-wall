@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 public class BuildingManager : MonoBehaviour
 {
+    public GameObject buildButton;
+    public int[] currBuildingCount;
+
     private GameObject currentBuilding;
     private Building currentBuildingStatus;
     Collider2D currentBuildingCollider;
@@ -35,12 +38,20 @@ public class BuildingManager : MonoBehaviour
             GameManager.instance.isBuilding = false;
         }
 
+        if (building.data.isRestrictedCount && currBuildingCount[building.data.id] >= building.data.maxCount) {
+            Debug.Log("최대 개수 초과");
+            return;
+        }
+
         if (GameManager.instance.money >= building.cost)
         {
+            buildButton.SetActive(false);
             currentBuilding = Instantiate(buildingPrefab);
             currentBuilding.GetComponent<SpriteRenderer>().sortingLayerName = "Layer 3";
             currentBuildingStatus = currentBuilding.GetComponent<Building>(); 
             currentBuildingCollider = currentBuilding.GetComponent<Collider2D>();
+
+            currBuildingCount[building.data.id]++;
 
             // 충돌 무시 설정
             currentBuildingCollider.isTrigger = true;
@@ -64,7 +75,8 @@ public class BuildingManager : MonoBehaviour
     IEnumerator ReleaseBuilding() {
         if (Input.GetMouseButtonDown(0) && IsValidPlacement()) {
             Building building = currentBuilding.GetComponent<Building>();
-            
+
+            buildButton.SetActive(true);
             currentBuilding.GetComponent<Renderer>().material.color = Color.white;
             currentBuilding.GetComponent<SpriteRenderer>().sortingLayerName = "Layer 1";
             currentBuilding.GetComponent<SpriteRenderer>().sortingOrder = -(int)(currentBuilding.transform.position.y * 100);
@@ -86,9 +98,11 @@ public class BuildingManager : MonoBehaviour
     void CancelBuilding() {
         if (Input.GetMouseButtonDown(1))
         {
+            currBuildingCount[currentBuilding.GetComponent<Building>().data.id]--;
             Destroy(currentBuilding);
             currentBuilding = null;
             GameManager.instance.isBuilding = false;
+            buildButton.SetActive(true);
         }
     }
 

@@ -5,9 +5,10 @@ using UnityEngine.UI;
 
 public class Building : MonoBehaviour
 {
+    public BuildingData data;
+
     public int health;
     public int maxHealth;
-    private int originalMaxHealth;
     public int cost;
     public bool isBuilded;
     public bool isInsideNoBuildZone;
@@ -19,12 +20,13 @@ public class Building : MonoBehaviour
     private Camera mainCamera;
 
     private void Awake() {
+        maxHealth = data.maxHealth;
+        cost = data.cost;
         health = maxHealth;
         sprite = GetComponent<SpriteRenderer>();
     }
 
     private void Start() {
-        originalMaxHealth = maxHealth;
         mainCamera = Camera.main;
         isShowInfo = false;
     }
@@ -59,11 +61,6 @@ public class Building : MonoBehaviour
 
         yield return new WaitForSeconds(0.1f);
         sprite.color = Color.white;
-    }
-
-    private void OnDisable()
-    {
-        maxHealth = originalMaxHealth;
     }
 
     void DetectBuildingClick()

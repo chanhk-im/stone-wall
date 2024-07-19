@@ -25,6 +25,5 @@ public class BuildButton : MonoBehaviour
     void OnClickButton() {
         isContentsActive = !isContentsActive;
         contents.SetActive(isContentsActive);
-        Debug.Log(contents.activeSelf);
     }
 }
